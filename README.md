@@ -11,8 +11,8 @@ It is a system that collects patient information with the help of a few sensors 
 
     * ### Software Specifications
         1. Arduino IDE
-        2. Node Modules (Client_Side)[📎]
-        3. Node Modules (Server_Side)[📎]
+        2. Node Modules (Client_Side)[📎](https://github.com/Radwa-Saeed/IOT-Based-ICU-Patient-Monitoring-System/blob/main/client/Readme.md)
+        3. Node Modules (Server_Side)[📎](https://github.com/Radwa-Saeed/IOT-Based-ICU-Patient-Monitoring-System/blob/main/server/Readme.md)
         4. Mongo Atlas acc (Optional)
 
 <h2> Contents </h2>
@@ -25,7 +25,7 @@ It is a system that collects patient information with the help of a few sensors 
 ## 1. Introduction 
 - Intensive Care Unit or ICU is where the patients who are critically ill are admitted for treatment. For such critical conditions the Doctors need to have an all-time update patient’s health related parameters like their blood pressure, heart pulse and temperature. 
 
-<p align="center"><img src="./imgs/05.png" alt="Original" width="100%" style="border:2px solid #3ea9e2"/></p>
+<p align="center"><img src="./imgs/05.png" alt="Original" width="100%" style="border:5px solid #3ea9e2"/></p>
 
 * So we have designed a system that monitors the health related parameters of each patient in each room through some sensors and transmit these parameters values to the server so that doctors can keep up with each case.
 
@@ -37,17 +37,17 @@ It is a system that collects patient information with the help of a few sensors 
 
 * Here the user can choose the patient to view his/her health datails from any specific room
  
-<p align="center"><img src="./imgs/02.png" alt="Original" width="500" style="border:2px solid #3ea9e2"/></p>
+<p align="center"><img src="./imgs/02.png" alt="Original" width="500" style="border:5px solid #3ea9e2"/></p>
 
 * In the details section, the user can control each sensor to turn it on or off. and also he can visualize values variability through the time chart
 
-<p align="center"><img src="./imgs/04.png" alt="Original" width="500" style="border:2px solid #3ea9e2"/></p>
+<p align="center"><img src="./imgs/04.png" alt="Original" width="500" style="border:5px solid #3ea9e2"/></p>
 
 
 ## 4. Server
 * Here is a Data Base Sample from MongoAtlas 
 
-<p align="center"><img src="./imgs/01.png" alt="Original" width="100%" style="border:2px solid #3ea9e2"/></p>
+<p align="center"><img src="./imgs/01.png" alt="Original" width="100%" style="border:5px solid #3ea9e2"/></p>
 
 * ## Important Note 
     - Make sure to replace the IP address in each file with yours 
